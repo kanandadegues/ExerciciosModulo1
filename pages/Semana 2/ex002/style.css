@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body{
+    background: radial-gradient(circle, rgba(245,240,237,1) 22%, rgba(212,198,189,1) 100%);
+}
+
+section{
+    padding-top: 150px;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.questao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #d4c6bd;
+    border-radius: 0.5rem;
+}
+
+.questao ol{
+    padding: 10px;
+}
+
+.questao ol li{
+    margin-left: 15px;
+}
+
+.resposta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 6rem;
+    border: 1px solid #d4c6bd;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.resposta h4{
+    margin-bottom: 10px;
+}
+
+.resposta p{
+    padding: 5px;
+}
